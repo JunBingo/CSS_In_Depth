@@ -67,7 +67,7 @@ header {
 }
 
 .media {
-  margin: 1.5em;
+  padding: 1.5em;
   background-color: #eee;
   border-radius: 0.5em;
 }
@@ -82,7 +82,7 @@ header {
   margin-top: 0;
 }
 
-.media-body h4{
+.media-body h4 {
   margin-top: 0;
 }
 
@@ -92,7 +92,7 @@ header {
   content: " ";
 }
 
-.clearfix,:after{
+.clearfix::after{
   clear: both;
   /* 清除浮动 */
 }
